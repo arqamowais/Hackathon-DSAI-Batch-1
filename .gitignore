@@ -1,0 +1,91 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Anaconda
+# ==============================
+
+*.conda
+conda-meta/
+
+# ==============================
+# Data files
+# ==============================
+
+# Ignore large/raw datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# If you specifically want to upload your small dataset,
+# remove the corresponding extension above.
+
+# ==============================
+# Machine Learning
+# ==============================
+
+# Temporary/model files
+*.joblib
+*.pkl
+
+# IMPORTANT:
+# Your final model is required for Streamlit.
+# Keep churn_pipeline.pkl tracked by GitHub.
+!churn_pipeline.pkl
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Streamlit
+# ==============================
+
+.streamlit/secrets.toml
