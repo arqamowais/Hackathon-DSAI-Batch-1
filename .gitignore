@@ -37,22 +37,6 @@ conda-meta/
 *.xls
 *.parquet
 
-# If you specifically want to upload your small dataset,
-# remove the corresponding extension above.
-
-# ==============================
-# Machine Learning
-# ==============================
-
-# Temporary/model files
-*.joblib
-*.pkl
-
-# IMPORTANT:
-# Your final model is required for Streamlit.
-# Keep churn_pipeline.pkl tracked by GitHub.
-!churn_pipeline.pkl
-
 # ==============================
 # IDE / Editors
 # ==============================
